@@ -6,6 +6,30 @@ import java.io.*;
  Date:18-11-2023
  Project: Advanced Coding
  */
+/*
+Problem Description:
+Given two integers A and B, the task is to check whether the given numbers are anagrams of each other or not. Just like strings, a number is said to be an anagram of some other number if it can be made equal to the other number by just shuffling the digits in it. //DO THIS WITHOUT USING STRINGS
+
+Input Format
+
+Read input as an integer
+
+Constraints
+
+NIL
+
+Output Format
+
+Print Yes if an Anagram otherwise Print No if not an Anagram.
+
+Sample Input 0
+
+123
+321
+Sample Output 0
+
+YES
+*/
 public class Anagram {
     static int getLength(int n) {
         int l = 0;
@@ -50,5 +74,6 @@ public class Anagram {
         }
         else
             System.out.println("NO");
+        double i=in
     }
 }
